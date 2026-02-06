@@ -41,7 +41,7 @@ noBtn.addEventListener("touchstart",moveButton);
 // When YES is clicked
 yesBtn.addEventListener("click", function () {
 
-    question.innerHTML = "i knew 💖, but sorry i am not intrested ✨";
+    question.innerHTML = "i knew 💖<br> but sorry i am not intrested ✨";
 
     isLocked = true;   // stop movement
 
@@ -49,3 +49,4 @@ yesBtn.addEventListener("click", function () {
     noBtn.style.display = "none";
     yesBtn.style.display="none";
 });
+
